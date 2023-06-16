@@ -1,0 +1,9 @@
+version: '2.4'
+services:
+  botnya-adit:
+    image: registry.asmarandana.me/botnya-adit
+    container_name: botnya-adit
+    environment:
+      - SLACK_BOT_TOKEN=
+      - SLACK_APP_TOKEN=
+      - OPENAI_API_KEY=
